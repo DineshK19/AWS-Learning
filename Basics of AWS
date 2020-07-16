@@ -9,11 +9,17 @@ EC2 --> Elastic Compound Cloud -- Its a service that helps to launch servers,ec2
 
 1. AMI -- Amazon Machine Image --> OS, Additional , Software Package 
 2. Instance Type               --> RAM, Type of Storage Device , Virtual CPUs , n/w performance.
-3. Security group              -->
+3. Security group              --> Application access based on users 
 
 
-ELB --> Elastic Load Balancer 
+ELB --> Elastic Load Balancer --> Balances the loads coming to the server
 
-1. It distributes the income traffic between registered ec2 instances
+1. It distributes the income traffic between registered healthy ec2 instances
 2. It performace health checks on the ec2 instances
 3. It provides a single end-point 
+
+
+Using EC2 we can launch three types of service 
+1. On Demand Instancs  ---> can we launched at any point of time and deregister at any point of time
+2. reserved Instances (Less expensive than On Demand)---> The instance must be used for atleast for an year or 3 yr.
+3.Spot Instances (very low cost)---> these are free instances avaiable in aws .cannot be used for critical applications.Need to do bidding ..
