@@ -1,0 +1,19 @@
+Can be accessed by three ways 
+1.Console
+2.CLI
+3.SDK
+
+Compute :
+
+EC2 --> Elastic Compound Cloud -- Its a service that helps to launch servers,ec2 instainstancesncdes or instances or VM inside AWS Cloud
+
+1. AMI -- Amazon Machine Image --> OS, Additional , Software Package 
+2. Instance Type               --> RAM, Type of Storage Device , Virtual CPUs , n/w performance.
+3. Security group              -->
+
+
+ELB --> Elastic Load Balancer 
+
+1. It distributes the income traffic between registered ec2 instances
+2. It performace health checks on the ec2 instances
+3. It provides a single end-point 
