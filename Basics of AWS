@@ -5,7 +5,7 @@ Can be accessed by three ways
 
 Compute :
 
-EC2 --> Elastic Compound Cloud -- Its a service that helps to launch servers,ec2 instainstancesncdes or instances or VM inside AWS Cloud
+ 1) EC2 (iaas) --> Elastic Compound Cloud -- Its a service that helps to launch servers,ec2 instainstancesncdes or instances or VM inside AWS Cloud
 
 1. AMI -- Amazon Machine Image --> OS, Additional , Software Package 
 2. Instance Type               --> RAM, Type of Storage Device , Virtual CPUs , n/w performance.
@@ -33,3 +33,12 @@ Auto Scaling --> Instances are launched and terminated based on the load..Its a 
  
  1. Launch Configuration ---> Its a template thats going to be used by automatically launching ec2 instances..
  2.Auto Scaling Group (ASG) ---> Auto Scaling Policy and parameter (Scaling based on CPU utilization ,n/w in bytes , n/w out bytes )
+ 
+ 2) Elastic Beanstalk (PaaS) : It takes full control in launching the Instance (takes its own ram , os ,space). customer will not have the control in specifiying the configurations of the instances.
+ 
+ 3) Lambda (Chargable Service) : Its Serverless code running. Code is run in response to an event. Ex : when a new video is loaded in to aws using (s3) , need to create a thumbnail of the video uploaded.
+ 
+ 
+ 
+ Storage Services 
+
