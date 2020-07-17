@@ -23,3 +23,13 @@ Using EC2 we can launch three types of service
 1. On Demand Instancs  ---> can we launched at any point of time and deregister at any point of time
 2. reserved Instances (Less expensive than On Demand)---> The instance must be used for atleast for an year or 3 yr.
 3.Spot Instances (very low cost)---> these are free instances avaiable in aws .cannot be used for critical applications.Need to do bidding ..
+
+
+
+----------------Day 2-----------------
+
+Auto Scaling --> Instances are launched and terminated based on the load..Its a feature in AWS..
+ Horizontal scaling (Auto Scaling) -- Incresing new servers / instances
+ 
+ 1. Launch Configuration ---> Its a template thats going to be used by automatically launching ec2 instances..
+ 2.Auto Scaling Group (ASG) ---> Auto Scaling Policy and parameter (Scaling based on CPU utilization ,n/w in bytes , n/w out bytes )
